@@ -1,5 +1,5 @@
 # Meme Generator
-A simple UI interface to generate and save a meme locally
+A simple UI interface to generate and save a meme locally <br>
 ![Alt Text](https://github.com/jandzouana/meme_generator/blob/main/meme.jpg)
 
 # Website
