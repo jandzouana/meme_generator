@@ -59,6 +59,9 @@ body{
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
+}
+
+.karla{
     font-family: Karla, sans-serif;
 }
 

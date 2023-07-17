@@ -56,12 +56,12 @@ const Meme = () => {
         <div id={"main-container"}>
             <div id={"form"}>
                 <section>
-                    <input type={"text"} placeholder={"Enter top text here..."} className={"form-text"} name={"topText"} onChange={handleChange} value={meme.topText}/>
-                    <input type={"text"} placeholder={"Enter bottom text here..."} className={"form-text"} name={"bottomText"} onChange={handleChange} value={meme.bottomText}/>
+                    <input type={"text"} placeholder={"Enter top text here..."} className={"form-text karla"} name={"topText"} onChange={handleChange} value={meme.topText}/>
+                    <input type={"text"} placeholder={"Enter bottom text here..."} className={"form-text karla"} name={"bottomText"} onChange={handleChange} value={meme.bottomText}/>
                 </section>
-                <button onClick={setRandomImage} className={"white-text bold-text purple-button"}>Get a new meme image 🖼</button>
+                <button onClick={setRandomImage} className={"karla white-text bold-text purple-button"}>Get a new meme image 🖼</button>
             </div>
-            <button onClick={handleSaveClick} id={"save-button"} className={"white-text bold-text purple-button"}>Save meme</button>
+            <button onClick={handleSaveClick} id={"save-button"} className={"karla white-text bold-text purple-button"}>Save meme</button>
             {/*<div id={'meme-img'} style={{backgroundImage:`url(${imgSrc})`}}></div>*/}
             <div id={"meme"}>
                 <h2 className="meme-text top">{meme.topText}</h2>
