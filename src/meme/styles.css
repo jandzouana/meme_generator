@@ -1,0 +1,140 @@
+body{
+    font-weight: 400;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    line-height: normal;
+    margin: 0 0 100px;
+}
+
+#main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 480px;
+    margin: auto;
+    justify-content: flex-start;
+}
+
+.white-text{
+    color: #FFF;
+}
+
+.bold-text{
+    font-weight: 700;
+}
+
+.semi-bold-text{
+    font-weight: 500;
+}
+
+#header{
+    background: linear-gradient(90deg, #672280 0%, #A626D3 100%);
+    height: 65px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header > img{
+    width: 179px;
+    height: 26px;
+    margin-left: 20px;
+}
+
+#title{
+    margin-right: 37px;
+    text-align: right;
+    font-weight: 500;
+}
+
+#form{
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    width: 100%;
+    height: 90px;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    font-family: Karla, sans-serif;
+}
+
+#form >section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.form-text{
+    width: 45%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+    text-indent: 5px;
+}
+
+.purple-button{
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(90deg, #672280 0%, #A626D3 100%);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#meme{
+    width: 100%;
+    position: relative;
+}
+
+#meme-img{
+    width: 100%;
+
+    /*width: 477px;*/
+    /*height: 268px;*/
+    /*flex-shrink: 0;*/
+    /*background-size: contain;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+}
+
+.meme-text {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+            2px 2px 0 #000,
+            -2px -2px 0 #000,
+            2px -2px 0 #000,
+            -2px 2px 0 #000,
+            0 2px 0 #000,
+            2px 0 0 #000,
+            0 -2px 0 #000,
+            -2px 0 0 #000,
+            2px 2px 5px #000;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.top {
+    top: 0;
+}
+
+#save-button{
+    margin-bottom: 20px;
+}
